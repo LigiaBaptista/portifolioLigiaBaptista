@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+
+/* Genral config. page*/
+
+header {
+    display: flex;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    background-color: rgb(217, 168, 242);
+}
+
+/* Text edition */
+
+h1 {
+    color: rgb(118, 37, 193);
+    text-align: center;
+}
+
+.tituloProfile {
+    color: rgb(118, 37, 193);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(123, 72, 171);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+    text-align: justify;
+}
+
+p {
+    color: rgb(92, 18, 129);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    margin: 3%
+}
+
+a {
+    text-decoration: none;
+    color: rgb(136, 88, 181);
+}
+
+a:hover {
+    color: rgb(50, 10, 88);
+}
+
+.contText {
+    color: rgb(111, 58, 161);
+    font-family: 'Open Sans', sans-serif;
+    cursor: copy;
+}
+
+#hobName1,
+#hobName2,
+#hobName3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: rgb(108, 60, 152);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.formItens {
+    border-radius: 10%;
+    color: rgb(111, 58, 161);
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    color: rgb(50, 10, 88);
+}
+
+.form {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(92, 18, 129);
+    font-weight: bold;
+    font-size: 90%;
+}
+
+/*Itens Positions and img. config.*/
+
+.profile {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 3px 4px hsl(0deg 0% 0% / 39%);
+    object-fit: cover;
+}
+
+.img2 {
+    width: 300px;
+    height: 300px;
+    object-position: center center;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 3px 4px hsl(0deg 0% 0% / 39%);
+    margin-top: 3%;
+}
+
+#sec2,
+#sec3,
+#sec4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+
+
+#hob1,
+#hob2,
+#hob3 {
+    display: flex;
+}
+
+#imgHob1,
+#imgHob2,
+#imgHob3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 3px 4px hsl(0deg 0% 0% / 39%);
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cont1,
+#cont2,
+#cont3,
+#cont4,
+#cont5 {
+    width: 15px;
+    padding: 1%;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
